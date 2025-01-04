@@ -6,7 +6,7 @@ import { useRef } from "react";
 import Button from "./Button.jsx";
 import mockdata from "../database/mock_data.json";
 import { phoneValidation } from "../lib/validatePhoneNumber.js";
-import DisplayFormData from "../lib/displayFormData.jsx";
+import DisplayFormData from "../lib/DisplayFormData.jsx";
 
 const Form = () => {
   const dispatch = useDispatch();
