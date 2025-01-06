@@ -23,8 +23,7 @@ export const columns = [
   columnHelper.accessor("website", {
     id: "website",
     cell: (info) => (
-      <span className="italic text-blue-400"> {info.getValue()}</span>
-    ),
+      <span className="italic "> <a href={info.getValue()}> {info.getValue()}</a></span>),
     header: "Website",
   }),
   columnHelper.accessor("industry", {
